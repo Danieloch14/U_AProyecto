@@ -21,37 +21,37 @@
         <header>
             <!-- navbar -->
             <nav class="navbar navbar-expand-md navbar-custom">
-                <a tabindex="1" class="navbar-brand" aria-label="LOGO" href="index.html">
-                    <img src="images/logo_black.svg" alt="logo" class="logo">
+                <a class="navbar-brand" aria-label="LOGO" href="index.html">
+                    <img tabindex="0" role="img" src="images/logo_black.svg" alt="logo" class="logo">
                 </a>
 
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <button tabindex="0" role="button" type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a tabindex="2" class="nav-link active" aria-current="link INICIO" href="index.html">INICIO</a>
+                            <a class="nav-link active" aria-current="link INICIO" href="index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a tabindex="3" class="nav-link" aria-current="PROGRAMAS" aria-label="link PROGRAMAS" href="#">PROGRAMAS</a>
+                            <a class="nav-link" aria-current="PROGRAMAS" aria-label="link PROGRAMAS" href="#">PROGRAMAS</a>
                         </li>
                         <li class="nav-item">
-                            <a tabindex="4" class="nav-link" aria-current="SERVICIOS" aria-label="link SERVICIOS" href="#">SERVICIOS</a>
+                            <a class="nav-link" aria-current="SERVICIOS" aria-label="link SERVICIOS" href="#">SERVICIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a tabindex="5" class="nav-link" aria-current="NOTICIAS" aria-label="link NOTICIAS" href="news.html">NOTICIAS</a>
+                            <a class="nav-link" aria-current="NOTICIAS" aria-label="link NOTICIAS" href="news.html">NOTICIAS</a>
                         </li>
                         <li class="nav-item">
-                            <a tabindex="6" class="nav-link" aria-current="CONTACTO" aria-label="link CONTACTO" href="contact.html">CONTACTO</a>
+                            <a class="nav-link" aria-current="CONTACTO" aria-label="link CONTACTO" href="contact.html">CONTACTO</a>
                         </li>
                         <li class="nav-item">
-                            <a tabindex="7" class="nav-link" aria-current="SISTEMAS" aria-label="ink SISTEMAS" href="#">SISTEMAS</a>
+                            <a class="nav-link" aria-current="SISTEMAS" aria-label="link SISTEMAS" href="#">SISTEMAS</a>
                         </li>
                         <li class="nav-item">
-                            <a tabindex="8" class="nav-link" href="#" aria-label="link NAVEACIÓN">
-                                <i class="fa fa-search"></i>
+                            <a class="nav-link" href="#" aria-label="link NAVEACIÓN">
+                                <i class="fa fa-search" aria-label="link busqueda"></i>
                             </a>
                         </li>
                     </ul>
@@ -66,19 +66,19 @@
     <div class="spacer"></div>
     <div class="form-contact row">
         <div class="col">
-            <h1 tabindex="9">Habla con nosotros</h1>
-            <p style="text-align: justify;" tabindex="3">Si necesitas asesoramiento personalizado o mayor información sobre nuestros servicios o estas interesado o interesada en conocer más sobre nuestra institución, rellena nuestro formulario y se te agendará un cita telefónica lo antes posible.
+            <h1>Habla con nosotros</h1>
+            <p style="text-align: justify;">Si necesitas asesoramiento personalizado o mayor información sobre nuestros servicios o estas interesado o interesada en conocer más sobre nuestra institución, rellena nuestro formulario y se te agendará un cita telefónica lo antes posible.
                 <br><b>Matriz:</b> Robles E3-33 y Ulpiano Páez <br><b>Teléfono:</b> +593-(02) 398-3100 <br><b>Email:</b> cooperantes@inclusion.gob.ec</p>
         </div>
         <form action="" class="col">
             <label for="nombre">Nombres y Apellidos</label><br>
-            <input tabindex="10" type="text" id="nombre"><br>
+            <input type="text" id="nombre"><br>
             <label for="correo">Correo eléctronico</label><br>
-            <input tabindex="11" type="text" id="correo"><br>
+            <input type="text" id="correo"><br>
             <label for="mensaje">Mensaje</label><br>
-            <textarea tabindex="12" id="mensaje"></textarea><br>
+            <textarea id="mensaje"></textarea><br>
             <div>
-                <button tabindex="13" id="cta-btn" role="button" class="btn btn-danger" style="width: 400px;">ENVIAR</button>
+                <button tabindex="0" id="cta-btn" role="button" class="btn btn-danger" style="width: 400px;">ENVIAR</button>
             </div>
         </form>
     </div>
@@ -89,7 +89,7 @@
             <div class="container p-4">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 mb-12 mb-md-0">
-                        <img src="images/logo_white.svg" alt="logo" class="logo">
+                        <img tabindex="0" role="img" src="images/logo_white.svg" alt="logo" class="logo">
                     </div>
                     <div class="col-lg-4 col-md-12 mb-12 mb-md-0">
                         <h5 class="text-uppercase">Enlaces importantes</h5>
@@ -99,7 +99,7 @@
                                 <a href="#!" class="text-white" aria-label="link tramites ciudadanos">Portal de trámites ciudadanos</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white" aria-label="ink SNI sistema nacional de informacion">Sistema Nacional de información (SNI)</a>
+                                <a href="#!" class="text-white" aria-label="link SNI sistema nacional de informacion">Sistema Nacional de información (SNI)</a>
                             </li>
                             <li>
                                 <a href="#!" class="text-white" aria-label="link NOTICAS">Noticias</a>
@@ -115,7 +115,7 @@
                             <!-- social media -->
                             <li class=""><a href="#" aria-label="link facebook"><i class="fa fa-facebook text-white"></i></a></li>
                             <li class=""><a href="#" aria-label="link twiter"><i class="fa fa-twitter text-white"></i></a></li>
-                            <li class="list-group-item"><a href="#" aria-label="lin youtbe"><i class="fa fa-youtube text-white"></i></a></li>
+                            <li class="list-group-item"><a href="#" aria-label="link youtbe"><i class="fa fa-youtube text-white"></i></a></li>
                         </ul>
                         <a href="#" class="text-white" aria-label="link CONTACTO CIUDADANO">
                             <h5>CONTACTO CIUDADANO</h5>
